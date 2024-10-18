@@ -56,13 +56,27 @@ img.general {
 
 /* positions */
 
+.box {
+    flex-flow: column;
+}
+
 div.content-right {
+    background-color: #b28917;
+    margin: 20x;
+    padding: 15px;
+    border: solid #73bae6;
+    border-radius: 10px;
     display: flex;
     float: right;
     margin: 10px;
 }
 
 div.content-left {
+    background-color: #b28917;
+    margin: 20x;
+    padding: 15px;
+    border: solid #73bae6;
+    border-radius: 10px;
     display: flex;
     float: left;
     margin: 10px;
@@ -70,6 +84,8 @@ div.content-left {
 
 div.content {
     display: flex;
+    flex-flow: row;
+    height: 100%;
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
