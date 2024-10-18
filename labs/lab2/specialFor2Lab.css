@@ -64,6 +64,7 @@ div.content-right {
     background-color: #b28917;
     margin: 20x;
     padding: 15px;
+    flex-flow: column;
     border: solid #73bae6;
     border-radius: 10px;
     display: flex;
