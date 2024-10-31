@@ -61,11 +61,35 @@ div.container-horizontal{
 div.container-vertical{
     display: flex;
     width: 98%;
-    height: 500px; /* I don't know other way to center item in parent */
+    height: 500px; 
+    /* I don't know other way to center item in parent 
+    only fixed size */
     padding: 5px;
     border: solid #ffaa00;
     border-width: 2px;
     background-color: #ba4b4b80;
+}
+
+div.container-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 98%;
+
+    border: solid #eac375;
+    border-width: 2px;
+    background-color: #5884a180;
+}
+
+div.container-empty{
+    width: 1000px;
+    height: 800px;
+
+    position:absolute; /* it's necessary*/
+    border: double #ffc34a;
+    border-width: 5px;
+    background-color: #00000000;
+    padding: 5px;
 }
 
 div.block{
@@ -81,9 +105,29 @@ div.block{
 div.block2{
     width: 200px;
     height: 200px;
-    margin:auto;
+    margin: auto;
     border: solid #394e21;
     border-radius: 5%;
     border-width: 2px;
     background-color: #8ead2990;
+}
+
+div.block3{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border: solid #181c36;
+    border-radius: 5%;
+    border-width: 3px;
+    background-color: #0c456990;
+}
+
+img.fixed{
+    position: fixed;
+    display: fixed;
+
+    bottom: 0px;
+    left: 0px;
+
+    width: 150px;
 }
