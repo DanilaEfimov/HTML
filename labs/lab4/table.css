@@ -17,17 +17,27 @@ caption {
     border: 2px solid rgb(88, 24, 24);
 }
 
-tr {
+td {
     text-align: center;
     border: 2px solid rgb(168, 100, 100);
 }
 
-td {
+tr.red {
     text-align: center;
-    border: 2px solid rgb(246, 162, 162);
+    background-color: rgb(246, 162, 162);
+} 
+
+tr.green {
+    text-align: center;
+    background-color: rgb(169, 246, 162);
+} 
+
+tr.blue {
+    text-align: center;
+    background-color: rgb(162, 228, 246);
 } 
 
 th {
     text-align: center;
     border: 2px solid rgb(168, 100, 100);
-} 
+}
