@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-bs-spy="scroll"  data-bs-target="#navbar">
+    <div id="nav-top" class="navbar navbar-expand-sm justify-content-center bg-info">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a href="../templates/info.html" class="nav-link active">Информация</a></li>
+            <li class="nav-item"><a href="../templates/films.html" class="nav-link">Фильмы</a></li>
+        </ul>
+    </div>
+    <div id="photos" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#photos" class="active" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#photos" class="active" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#photos" class="active" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#photos" class="active" data-bs-slide-to="3"></button>
+        </div>
+        <div class="carousel-inner justify-content-center bg-black" style="height: 500px; width: 100%;">
+            <div class="carousel-item active">
+                <div class="carousel-img-wrapper">
+                    <img src="../img/avatars/1.jpg">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-img-wrapper">
+                    <img src="../img/avatars/2.jpg">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-img-wrapper">
+                    <img src="../img/avatars/3.jpg">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-img-wrapper">
+                    <img src="../img/avatars/5.jpg">
+                </div>
+            </div>
+        </div>
+        <button type="button" class="carousel-control-prev" data-bs-target="#photos" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button type="button" class="carousel-control-next" data-bs-target="#photos" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <div id="film_cards" class="card-container">
+        <div class="card" style="width: 300px;">
+            <img class="card-img-top" src="../img/posters/serpent.webp">
+            <div class="card-header">
+                <div class="card-text">Бангкок, 1975 год. В многоквартирном доме обосновалась преступная группировка во главе с Чарльзом Собраджем, которого окружающие знают как Алена Готье, торговца драгоценными камнями...</div>
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-info" style="width: 100%;"><a href="https://www.kinopoisk.ru/series/1301790/">Посмотреть</a></button>
+            </div>
+        </div>
+        <div class="card" style="width: 380px;">
+            <img class="card-img-top" src="../img/posters/girl_from_nowhere.webp">
+            <div class="card-header">
+                <div class="card-text">Загадочная девушка переводится в разные школы и на каждом новом месте разоблачает плохих людей.</div>
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-info" style="width: 100%;"><a href="https://www.kinopoisk.ru/series/1187903/">Посмотреть</a></button>
+            </div>
+        </div>
+        <div class="card" style="width: 300px;">
+            <img class="card-img-top" src="../img/posters/Necromancer.webp">
+            <div class="card-header">
+                <div class="card-text">Отец Вина погиб при странных обстоятельствах. Чтобы отомстить убийцам, парень вынужден встать на опасный путь некромантии. Так он узнает о таинственной организации, скупающей артефакты чёрной магии и перепродающей их богачам.</div>
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-info" style="width: 100%;"><a href="https://www.kinopoisk.ru/film/4297398/">Посмотреть</a></button>
+            </div>
+        </div>
+    </div>
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header">
+                <a class="btn" data-bs-toggle="collapse" href="#collapse1" data-bs-target="#collapse1">Где родилась?</a>
+            </div>
+            <div id="collapse1" class="card-body collapse" data-bs-parent="#accordion">
+                <div class="card-body">
+                    Аматаякул родилась 5 августа 1993 года в Бангкоке.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a class="btn" data-bs-toggle="collapse" href="#collapse2" data-bs-target="#collapse2">Где училась?</a>
+            </div>
+            <div id="collapse2" class="card-body collapse" data-bs-parent="#accordion">
+                <div class="card-body">
+                    Она училась в 4 классе школы Читралада. Посещала среднюю школу в международной школе по британской учебной программе (IGCSE) в возрасте 15 лет, прежде чем поступить в высшие учебные заведения на факультет бизнеса в Успенском университете и юридический факультет в Университете Рамхамхаенг.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a class="btn" data-bs-toggle="collapse" href="#collapse3" data-bs-target="#collapse3">Личная жизнь</a>
+            </div>
+            <div id="collapse3" class="card-body collapse" data-bs-parent="#accordion">
+                <div class="card-body">
+                    Начинала карьеру в индустрии развлечений как модель, украшая обложки журналов и появляясь в различных рекламных кампаниях.
+
+                    Первая роль Чичи Аматаякул — в фильме 2015 года «Май Что?» режиссёра Чаяноопа Бунпракоба.
+                    Помимо актёрской карьеры, Чича Аматаякул участвует в благотворительных предприятиях, она сторонница охраны окружающей среды и принимала участие в нескольких кампаниях, посвящённых пропаганде устойчивых принципов жизни.
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav id="navbar" class="navbar navbar-expand-sm bg-info">
+        <a href="#photos" class="active"><img src="../svg/carousel.svg"></a>
+        <a href="#film_cards"><img src="../svg/film.svg"></a>
+        <a href="#accordion"><img src="../svg/info.svg"></a>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
