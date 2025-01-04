@@ -1,0 +1,7 @@
+{
+    "explorer.confirmDelete": false,
+    "editor.minimap.size": "fill",
+    "workbench.colorTheme": "Default High Contrast",
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.saveFileBeforeRun": true
+}
