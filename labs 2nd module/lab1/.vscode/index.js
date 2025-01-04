@@ -1,15 +1,10 @@
-// Efimov Danila JavaScript file (c) 2025
+// Efimov Danila TypeScript file (c) 2025
 // make function, which returns sum of three nums:
-
-let tripleSum = (a, b, c) => a + b + c;
-
-// it's like same:
-// let sum = function (a, b, c){
-//     return a + b + c;
-// }
-
-// example
-console.log(tripleSum(2,1,1)); // 4
-
+var data = {
+    id: 3,
+    e1: 12345,
+    e2: "Поле 2",
+};
+console.log(JSON.stringify(data));  // output - OK
 // Oh mein Gott, was is das fur eine schone!
-// It's like C++ ;s)
+// It's like C++ ;)
