@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var classes_1 = require("./classes");
+var car = new classes_1.transport.Car("Moskvich", "2024", 2024, "H123BH", "1", "Me");
+var bike = new classes_1.transport.SportBike("Yamaha", "passifica", 2024, "A234BH", "2", "Me too", classes_1.transport.frame.carbone, true);
+console.log("\nabout my car:");
+car.displayInfo();
+console.log("\nabout my bike:");
+bike.displayInfo();
+var docs = new classes_1.transport.DocumentType("OSAGO");
+var owner = new classes_1.transport.OwnerImpl("Ivanov", "Ivan", "Ivanovich", new Date('December 17, 2021 04:28:00'), docs, "036VU", "3");
+console.log("\nabout me: ");
+owner.printDetails();
